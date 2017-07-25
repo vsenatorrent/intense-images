@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box; }
+
+.images {
+  width: 90%;
+  margin: 100px auto;
+  text-align: center; }
+  .images div {
+    display: inline-block;
+    width: 290px;
+    height: 300px;
+    margin: 10px;
+    cursor: url(https://ruseller.com/lessons/les2103/demo/img/plus_cursor.png) 25 25, auto; }
+    .images div:first-child {
+      background: url(../img/autumn.jpg) center center no-repeat;
+      background-position: 30% 40%;
+      background-size: cover; }
+    .images div:nth-child(2) {
+      background: url(../img/spring.jpg) center center no-repeat;
+      background-size: cover; }
+    .images div:last-child {
+      background: url(../img/bridge.jpg) center center no-repeat;
+      background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
